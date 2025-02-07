@@ -46,8 +46,8 @@ To run this project, you will need the following packages:
 - bm3d
 - SimpleITK
 - tqdm
-- numpy 
-- other dependecies
+- NumPy 
+- other dependencies
   
 the repo of torch-radon is at https://github.com/carterbox/torch-radon.
   
@@ -59,11 +59,11 @@ To train Spener from scratch, To train Moner from scratch, navigate to the proje
 python train.py
 ```
 
-The code will train the Spener to reconstuct a demo slice `./demo_data/demo_AAPM_slice.nii.gz` from AAPM dataset under the following conditions:
+The code will train the Spener to reconstruct a demo slice `./demo_data/demo_AAPM_slice.nii.gz` from the AAPM dataset under the following conditions:
 - 90 projection views 
 - Normal dose settings ($I_0=10^6$)  
 
-The training config file is `./config/demo_config.json`.  The code will save the corresponding model weights and reconstruction results in each iterations in `./output`. 
+The training config file is `./config/demo_config.json`.  The code will save the corresponding model weights and reconstruction results in each iteration in `./output`. 
 
 
 ## Others
