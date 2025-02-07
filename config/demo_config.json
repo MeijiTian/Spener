@@ -1,0 +1,45 @@
+{	
+	"file": {
+		"input_path": "demo_data/demo_AAPM_slice.nii.gz",
+		"result_path": "output/demo/",
+		"model_path": "model/demo/",
+		"num_sv": 90,
+		"num_dv": 720,
+		"img_size": 256,
+		"I0": 1000000,
+		"fan_geometry":{
+			"spacing" : 1.3,
+			"det_count" : 613,
+			"SOD": 362
+		}
+	},
+	"train":{
+		"lr": 1e-3,
+		"epoch": 3000,
+		"gpu": 0,
+		"lr_decay_epoch": 1000,
+		"refine_start_epoch":249,
+		"summary_epoch": 500,
+		"sample_N": 10,
+		"batch_size": 3,
+		"lamda" : 2.5,
+		"iter_num" : 20
+	},
+	"encoding": {
+		"otype": "Grid",
+		"type": "Hash",
+		"n_levels": 8,
+		"n_features_per_level": 8,
+		"log2_hashmap_size": 24,
+		"base_resolution": 2,
+		"per_level_scale": 1.95,
+		"interpolation": "Linear"
+	},
+	"network": {
+		"otype": "FullyFusedMLP",
+		"activation": "ReLU",
+		"output_activation": "Sigmoid",
+		"n_neurons": 64,
+		"n_hidden_layers": 2
+	}
+}

@@ -1,0 +1,26 @@
+卷 Windows 的文件夹 PATH 列表
+卷序列号为 58F6-605D
+C:.
+|   dataset.py
+|   netarch.py
+|   README.md
+|   train.py
+|   tree.txt
+|   utils.py
+|   
++---config
+|       demo_config.json
+|       
++---demo_data
+|       demo_AAPM_slice.nii.gz
+|       
++---Fig
+|       pipeline.png
+|       results1.png
+|       
+\---output
+    \---SV_90_I0_1e+06
+            final_recon.nii.gz
+            gt_img.nii.gz
+            sv_fbp.nii.gz
+            
