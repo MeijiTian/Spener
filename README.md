@@ -52,7 +52,7 @@ To run this project, you will need the following packages:
 the repo of torch-radon is at https://github.com/carterbox/torch-radon.
   
 ## Training and Checkpoints
-To train Spener from scratch, To train Moner from scratch, navigate to the project directory and run the following command in your terminal:
+To train Spener from scratch, navigate to the project directory and run the following command in your terminal:
 
 
 ```bash
