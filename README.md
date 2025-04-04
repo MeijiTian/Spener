@@ -1,7 +1,6 @@
 # Spener
 
-
-This is the official code repository of our work **"Unsupervised Self-prior Embedding Implicit Neural Respresentation for Iterative Sparse-View CT Reconstruction"** accepted by AAAI 2025.
+This is the official code repository of our work **"Unsupervised Self-prior Embedding Implicit Neural Respresentation for Iterative Sparse-View CT Reconstruction"** accepted by AAAI 2025. [[arXiv]](https://arxiv.org/abs/2502.05445)
 
 ## Overview
 ![Overview of proposed Spener](Fig/pipeline.png)
@@ -17,6 +16,7 @@ Spener
 │   dataset.py                  # dataloader
 │   netarch.py                  # network architecture
 │   README.md                   # readme file
+│   requirements.txt            # requirements file
 │   train.py                    # train file
 │   utils.py                    # tools
 │
@@ -50,6 +50,14 @@ To run this project, you will need the following packages:
 - other dependencies
   
 the repo of torch-radon is at https://github.com/carterbox/torch-radon.
+
+
+``` bash
+
+conda create -n spener python=3.10
+conda activate spener
+pip install -r requirements.txt
+```
   
 ## Training and Checkpoints
 To train Spener from scratch, navigate to the project directory and run the following command in your terminal:
@@ -72,3 +80,12 @@ NIFTI files (`.nii`) can be viewed using the ITK-SNAP software, available for fr
 
 
 ## Citation
+```
+@article{tian2025unsupervised,
+  title={Unsupervised Self-Prior Embedding Neural Representation for Iterative Sparse-View CT Reconstruction},
+  author={Tian, Xuanyu and Chen, Lixuan and Wu, Qing and Du, Chenhe and Shi, Jingjing and Wei, Hongjiang and Zhang, Yuyao},
+  journal={arXiv preprint arXiv:2502.05445},
+  year={2025}
+}
+```
+
