@@ -1,6 +1,6 @@
 # Spener
 
-This is the official code repository of our work **"Unsupervised Self-prior Embedding Implicit Neural Respresentation for Iterative Sparse-View CT Reconstruction"** accepted by AAAI 2025. [[arXiv]](https://arxiv.org/abs/2502.05445)
+This is the official code repository of our work **"Unsupervised Self-prior Embedding Implicit Neural Respresentation for Iterative Sparse-View CT Reconstruction"** accepted by AAAI 2025. [[arXiv]](https://arxiv.org/abs/2502.05445)[[AAAI Proceedings]](https://ojs.aaai.org/index.php/AAAI/article/view/32794)
 
 ## Overview
 ![Overview of proposed Spener](Fig/pipeline.png)
@@ -81,11 +81,17 @@ NIFTI files (`.nii`) can be viewed using the ITK-SNAP software, available for fr
 
 ## Citation
 ```
-@article{tian2025unsupervised,
-  title={Unsupervised Self-Prior Embedding Neural Representation for Iterative Sparse-View CT Reconstruction},
-  author={Tian, Xuanyu and Chen, Lixuan and Wu, Qing and Du, Chenhe and Shi, Jingjing and Wei, Hongjiang and Zhang, Yuyao},
-  journal={arXiv preprint arXiv:2502.05445},
-  year={2025}
+@article{Tian_Chen_Wu_Du_Shi_Wei_Zhang_2025, 
+title={Unsupervised Self-Prior Embedding Neural Representation for Iterative Sparse-View CT Reconstruction}, 
+volume={39}, 
+url={https://ojs.aaai.org/index.php/AAAI/article/view/32794}, 
+DOI={10.1609/aaai.v39i7.32794}, 
+number={7}, 
+journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+author={Tian, Xuanyu and Chen, Lixuan and Wu, Qing and Du, Chenhe and Shi, Jingjing and Wei, Hongjiang and Zhang, Yuyao}, 
+year={2025}, 
+month={Apr.}, 
+pages={7383-7391} 
 }
 ```
 
